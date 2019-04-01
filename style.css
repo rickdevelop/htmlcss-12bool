@@ -1,0 +1,66 @@
+
+.row {
+  margin: auto;
+  width: 900px;
+}
+
+[class ^= "col-"]{
+  margin-top: 20px;
+}
+h1{
+  padding: 20px;
+
+}
+
+#lesson .row img {
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lesson {
+  text-align: center;
+}
+
+
+#steps{
+  text-align: center;
+}
+
+
+#why {
+  text-align: center;
+}
+
+#why .row img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding:50px
+}
+
+[background="grey"]{
+  background-color: #f9f9f9;
+}
+
+
+
+img{
+  height: 200px;
+}
+
+@media screen and (max-width: 768px){
+  .row{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .row{
+    width: 100%;
+  }
+
+  .margin-top{
+    margin-top: 18px;
+  }
+}
